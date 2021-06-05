@@ -252,6 +252,10 @@ input[type=text] {
     padding: 5px 15px;
 }
 
+#errorNote{
+    color:red;
+}
+
 #downloadLetter {
     margin-top: 10px;
     width: fit-content;
@@ -327,13 +331,13 @@ button {
         padding: 2px 12px 2px 12px
     }
 
-.hidden {
+/*.hidden {
     display: none;
-}
+}*/
 
-.visible {
+/*.visible {
     display: inline;
-}
+}*/
 /************************************************************************************************/
 
 @media  (max-width: 765px) {
@@ -347,6 +351,7 @@ button {
         right: 2%;
         /*margin: 0 auto;*/
         margin-right: 19px;
+        height:100%;
     }
 
     h1 {
@@ -381,7 +386,7 @@ button {
     label {
         display: block;
         cursor: pointer;
-        font-size: 14pt;
+        font-size: 17pt;
     }
 
     .opacity {
@@ -486,20 +491,21 @@ button {
 
     button {
         font-family: Assistant;
-        /* margin-right: 10%; */
-        background-size: 250px 200px;
+        font-size: 18pt;
+        margin-bottom: 60px;
+        background-size: 150px 200px;
         background-repeat: no-repeat;
         background-color: transparent;
         background-position-x: center;
-        width: 250px;
-        height: 200px;
+        width: 150px;
+        height: 100px;
         padding-top: 200px;
         border: none;
         cursor: pointer;
         margin-left: 70px;
         margin-top: 3%;
-        font-size: 18pt;
-        margin-bottom: 60px;
+        font-size: 15pt;
+        margin-bottom: 70px;
     }
 
     #lettetvolFam {
@@ -553,12 +559,12 @@ button {
             padding: 2px 12px 2px 12px
         }
 
-    .hidden {
+    /*.hidden {
         display: none;
     }
 
     .visible {
         display: inline;
-    }
+    }*/
 }
 
