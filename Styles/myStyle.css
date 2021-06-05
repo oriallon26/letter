@@ -443,7 +443,7 @@ button {
         /*margin-top: -270px;*/
         /* margin-right: 0; */
         /*display: flex;*/
-        margin-right: 36px;
+        /*margin-right: 36px;*/
     }
 
     #letterArea {
@@ -484,7 +484,7 @@ button {
 
     #downloadLetter {
         margin-top: 10px;
-        width: fit-content;
+        width: 140px;
         height: fit-content;
         /*margin-right: 504px;*/
     }
