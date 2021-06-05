@@ -213,16 +213,16 @@ input[type=text] {
     /*margin-top: -270px;*/
     /* margin-right: 0; */
     /*display: flex;*/
-    margin-right: 36px;
+    /*margin-right: 36px;*/
 }
 
 #letterArea {
     font-family: Assistant;
     /* position: absolute; */
-    font-size: 2.8vh;
+    font-size: 13pt;
     /* margin-right: 204px; */
-    width: 600px;
-    height: 500px;
+    width: 450px;
+    height: 400px;
     /* max-width: fit-content; */
     margin: 0 auto;
     /* margin-top: 24%;
@@ -460,7 +460,7 @@ button {
     }
 
     #displayDiv {
-        display: flex;
+        /*display: flex;*/
         /*justify-content: space-between;*/
     }
 
@@ -486,7 +486,7 @@ button {
         margin-top: 10px;
         width: fit-content;
         height: fit-content;
-        margin-right: 504px;
+        /*margin-right: 504px;*/
     }
 
     button {
@@ -558,6 +558,9 @@ button {
             border-radius: 7px;
             padding: 2px 12px 2px 12px
         }
+    #errorNote {
+        color: red;
+    }
 
     /*.hidden {
         display: none;
